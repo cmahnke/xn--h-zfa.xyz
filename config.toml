@@ -1,0 +1,54 @@
+baseURL = 'https://xn--h-zfa.xyz/'
+theme = ["hugo-theme-shell", "projektemacher-base"]
+title = "Äh.XYZ"
+languageCode = "en"
+languagecode = "en"
+defaultcontentlanguage = "en"
+publishDir = "docs"
+canonifyurls = true
+disablePathToLower = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+paginate = 5
+enableInlineShortcodes = true
+copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>"
+
+[Params]
+  [Params.Terminal]
+    scheme = "shell-retro"
+    userName = "projektemacher"
+    pcName = "äh.xyz"
+    workDir = "resolver"
+    profile = "intro.txt"
+    description = "/description.md"
+
+  [Params.Tree]
+    use = true
+    folderName = "site"
+    files = [
+      ["Links", "/links/_index.md"],
+      ["About", "/about/index.md"],
+      ["Projektemacher", "http://projektemacher.org/"],
+      ["Projektemacher Labs", "https://labs.projektemacher.org/"]
+    ]
+
+  [Params.Navbar]
+    use = false
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[imaging]
+    quality = 95
+
+[mediaTypes]
+  [mediaTypes."application/x-qrcode-template"]
+    suffixes = ["json"]
+
+[outputFormats]
+  [outputFormats.qrcode]
+    mediaType = "application/x-qrcode-template"
+    isPlainText = true
+    isHTML = false
+    baseName = "qrcode"
+    notAlternative = true

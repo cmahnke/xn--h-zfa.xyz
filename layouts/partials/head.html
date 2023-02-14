@@ -1,0 +1,18 @@
+<head>
+    <title>{{- if .IsHome }}{{ .Site.Title }}{{- else }}{{ .Title }}{{- end }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+    {{ partial "partials/style.html" . }}
+    {{- $includes := slice "" -}}
+    {{- $options := (dict "transpiler" "dartsass" "targetPath" "base.css" "outputStyle" "compressed" "includePaths" $includes) -}}
+    {{- $scssTemplate := resources.Get "scss/base.scss" -}}
+    {{- $scssStyle := $scssTemplate | resources.ExecuteAsTemplate "scss/base.scss" . | toCSS $options -}}
+    {{- $style := "" -}}
+    {{- if not .Site.IsServer -}}
+        {{- $style = $scssStyle | minify | fingerprint -}}
+    {{- else -}}
+        {{- $style = $scssStyle | fingerprint -}}
+    {{- end -}}
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
+</head>

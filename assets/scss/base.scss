@@ -1,0 +1,15 @@
+@import "fonts/courier-prime";
+
+html, body {
+  font-family: "Courier Prime";
+}
+
+#terminal {
+  margin-top: 1em;
+}
+
+pre.center {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
