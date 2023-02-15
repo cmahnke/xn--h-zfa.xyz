@@ -4,8 +4,6 @@ title: Index
 
 Projektemacher URL Shortener
 
-A simple Hugo based URL shortener.
-
 <pre class="center">
          -+*%@@@@@%*+-        
       =#@@@@@@@#**%@@@@%=.    
@@ -21,5 +19,11 @@ A simple Hugo based URL shortener.
   #@@*:##-       =#*          
    +@@@@#       .##:          
     .+@@@%*=-:..+#%=*%#*=     
-       :+%@@@@@@@@@@@%+-      
+       :+%@@@@@@@@@@@%+-    
+  
+</pre>
+
+
+<pre class="center">
+A simple Hugo based URL shortener.
 </pre>
