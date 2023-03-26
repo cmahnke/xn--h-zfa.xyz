@@ -13,6 +13,16 @@ paginate = 5
 enableInlineShortcodes = true
 copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>"
 
+[languages]
+  [languages.de]
+    languagename = "Deutsch"
+
+    [languages.de.params]
+
+  [languages.en]
+      languagename = "English"
+      [languages.en.params]
+
 [Params]
   [Params.Terminal]
     scheme = "shell-retro"
@@ -26,8 +36,10 @@ copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>
     use = true
     folderName = "site"
     files = [
-      ["Links", "/links/_index.md"],
-      ["About", "/about/index.md"],
+      ["Start", "/en"],
+      ["Deutsche Übersetzung", "/de/"],
+      ["Links", "/links/"],
+      ["About", "/about/"],
       ["Projektemacher", "http://projektemacher.org/"],
       ["Projektemacher Labs", "https://labs.projektemacher.org/"]
     ]
