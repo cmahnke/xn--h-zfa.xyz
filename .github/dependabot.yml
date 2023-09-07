@@ -16,4 +16,4 @@ updates:
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval:  .github/dependabot.yml
