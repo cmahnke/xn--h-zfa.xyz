@@ -24,6 +24,7 @@ copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>
       [languages.en.params]
 
 [Params]
+  disableScale = true
   [Params.Terminal]
     scheme = "shell-retro"
     userName = "projektemacher"
