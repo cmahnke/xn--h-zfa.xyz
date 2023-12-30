@@ -23,31 +23,6 @@ copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>
       languagename = "English"
       [languages.en.params]
 
-[Params]
-  disableScale = true
-  [Params.Terminal]
-    scheme = "shell-retro"
-    userName = "projektemacher"
-    pcName = "äh.xyz"
-    workDir = "resolver"
-    profile = "intro.txt"
-    description = "/description.md"
-
-  [Params.Tree]
-    use = true
-    folderName = "site"
-    files = [
-      ["Start", "/en"],
-      ["Deutsche Übersetzung", "/de/"],
-      ["Links", "/links/"],
-      ["About", "/about/"],
-      ["Projektemacher", "http://projektemacher.org/"],
-      ["Projektemacher Labs", "https://labs.projektemacher.org/"]
-    ]
-
-  [Params.Navbar]
-    use = false
-
 [markup.goldmark.renderer]
   unsafe = true
 
