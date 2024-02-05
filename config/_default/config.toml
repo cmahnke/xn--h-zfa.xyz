@@ -9,6 +9,7 @@
     workDir = "resolver"
     profile = "intro.txt"
     description = "/description.md"
+    debug = false
 
   [Params.Tree]
     use = true
