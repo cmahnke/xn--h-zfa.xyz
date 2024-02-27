@@ -18,7 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
+          submodules: false  # Fetch Hugo themes (true OR recursive)
+
+      - name: Checkout submodules
+        run: |
+          git submodule update --init --depth 1 -j 4 themes/*
+          for dir in `ls blogs/`; do echo "Checking out submodule blogs/$dir" ; git submodule update --depth 1 -j 4 --init blogs/$dir ; rm -rf blogs/$dir/.git ; find blogs/$dir -type f -size +1M -name '*.jpg' -print -exec rm {} \;  ; done
+#          ./scripts/git-checkout.sh
 
       - name: Login to GitHub Packages Docker Registry
         uses: docker/login-action@v3.0.0
