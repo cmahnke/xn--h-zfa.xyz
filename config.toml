@@ -40,3 +40,6 @@ copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>
     isHTML = false
     baseName = "qrcode"
     notAlternative = true
+
+[sitemap]
+  changeFreq = 'weekly'
