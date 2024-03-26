@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Äh.XYZ</title>
+    <link>https://xn--h-zfa.xyz/</link>
+    <description>Recent content on Äh.XYZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://labs.projektemacher.org&#34;&gt;Projektemacher Labs&lt;/a&gt;</copyright><atom:link href="https://xn--h-zfa.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index</title>
+      <link>https://xn--h-zfa.xyz/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/description/</guid>
+      <description>Projektemacher URL Shortener
+-+*%@@@@@%*+- =#@@@@@@@#**%@@@@%=. +@@@*-. ###. .-@@@@+. -@@@+ -###- :*###@@@- =@@%. .####+ +###+ .*%@- .@@@. +#*.## :#####. #@@+ :##: *###+.*#+ @@@: *#+ =#*: -##. %@@- -##. .= ##= =@@# *#= =## #@@+ -#* ##- #@@*:##- =#* +@@@@# .##: .+@@@%*=-:..+#%=*%#*= :+%@@@@@@@@@@@%+- A simple Hugo based URL shortener. </description>
+    </item>
+    
+    <item>
+      <title>Über diese Seite</title>
+      <link>https://xn--h-zfa.xyz/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/about/</guid>
+      <description>Diese Seite stellt gekürzte URLs für die Projektemacher Seiten bereit.</description>
+    </item>
+    
+  </channel>
+</rss>
