@@ -49,3 +49,4 @@ purgecss.config.js
 
 assets/css/
 static/fonts/
+data/stats.json

@@ -51,7 +51,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3.0.0
         with:
-          hugo-version: '0.126.1'
+          hugo-version: '0.126.1  '
           extended: true
 
       - name: Generate Files
@@ -60,6 +60,10 @@ jobs:
           CORES: ${{ steps.cpu-cores.outputs.count }}
         run: |
           ./scripts/setup.sh
+
+      - name: Generate stats
+        run: |
+          ./themes/projektemacher-base/scripts/stat.sh
 
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
