@@ -43,3 +43,6 @@ copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>
 
 [sitemap]
   changeFreq = 'weekly'
+
+[build]
+  writeStats = true
