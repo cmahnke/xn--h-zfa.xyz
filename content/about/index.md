@@ -4,4 +4,8 @@ metaPage: true
 displayinlist: false
 ---
 
-Diese Seite stellt gekürzte URLs für die Projektemacher Seiten bereit.
+This page provides shortened URLs for the pages of the Projektemacher sites.
+
+# Privacy policy
+
+The privacy policy is available [here](/privacy).
