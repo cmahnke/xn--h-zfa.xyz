@@ -3,4 +3,4 @@
 	url = https://github.com/cmahnke/projektemacher-base.git
 [submodule "themes/hugo-theme-shell"]
 	path = themes/hugo-theme-shell
-	url = https://github.com/Yukuro/hugo-theme-shell.git
+	url = https://github.com/cmahnke/hugo-theme-shell.git
