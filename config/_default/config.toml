@@ -10,6 +10,7 @@
     workDir = "resolver"
     profile = "intro.txt"
     description = "/description.md"
+    wikidata = false
     debug = false
 
   [Params.Tree]
