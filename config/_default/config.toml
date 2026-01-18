@@ -1,7 +1,7 @@
 [Params]
   description = "Projektemacher URL Shortener"
   disableScale = true
-  copyrightYears = "2023 - 2025"
+  copyrightYears = "2023 - 2026"
 
   [Params.Terminal]
     scheme = "shell-retro"
