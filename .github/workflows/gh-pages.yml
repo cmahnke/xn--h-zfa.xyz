@@ -31,7 +31,7 @@ jobs:
 #          ./scripts/git-checkout.sh
 
       - name: Login to GitHub Packages Docker Registry
-        uses: docker/login-action@v3.6.0
+        uses: docker/login-action@v3.7.0
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
