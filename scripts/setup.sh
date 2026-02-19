@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 #NPM dependencies
 echo "Calling theme scripts"
 for SCRIPT in $PWD/themes/projektemacher-base/scripts/init/*.sh ; do
