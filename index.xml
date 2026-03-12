@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Äh.XYZ</title>
+    <link>https://xn--h-zfa.xyz/</link>
+    <description>Recent content on Äh.XYZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://labs.projektemacher.org&#34;&gt;Projektemacher Labs&lt;/a&gt;</copyright><atom:link href="https://xn--h-zfa.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Index</title>
+      <link>https://xn--h-zfa.xyz/description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/description/</guid>
+      <description>&lt;p&gt;Projektemacher URL Shortener&lt;/p&gt;
+&lt;pre class=&#34;center&#34;&gt;
+         -+*%@@@@@%*+-        
+      =#@@@@@@@#**%@@@@%=.    
+    +@@@*-. ###.    .-@@@@+.  
+  -@@@+    -###-    :*###@@@-
+ =@@%.    .####+   +###+ .*%@-
+.@@@.     +#*.## :#####.      
+#@@+     :##: *###+.*#+       
+@@@:     *#+  =#*: -##.       
+%@@-    -##.  .=   ##=        
+=@@#    *#=       =##         
+ #@@+  -#*        ##-         
+  #@@*:##-       =#*          
+   +@@@@#       .##:          
+    .+@@@%*=-:..+#%=*%#*=     
+       :+%@@@@@@@@@@@%+-    
+  
+&lt;/pre&gt;
+&lt;pre class=&#34;center&#34;&gt;
+A simple Hugo based URL shortener.
+&lt;/pre&gt;</description>
+      </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>https://xn--h-zfa.xyz/meta/posts/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/meta/posts/index.json</guid>
+      <description></description>
+      </item>
+    
+    <item>
+      <title>Privacy policy</title>
+      <link>https://xn--h-zfa.xyz/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/privacy/</guid>
+      <description>&lt;h2 id=&#34;hosting&#34;&gt;Hosting&lt;/h2&gt;
+&lt;p&gt;The hoster collects the following data transmitted by your browser in log files:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IP address&lt;/li&gt;
+&lt;li&gt;The address of the previously visited website (Referer [sic!] request header)&lt;/li&gt;
+&lt;li&gt;Date and time of the enquiry&lt;/li&gt;
+&lt;li&gt;Time zone difference to Greenwich Mean Time&lt;/li&gt;
+&lt;li&gt;Content of the request&lt;/li&gt;
+&lt;li&gt;HTTP status code&lt;/li&gt;
+&lt;li&gt;Amount of data transferred&lt;/li&gt;
+&lt;li&gt;Website from which the request originates&lt;/li&gt;
+&lt;li&gt;Information about the browser and operating system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is necessary to display the website and to ensure stability and security. This corresponds to a legitimate interest within the meaning of &lt;a href=&#34;https://gdpr-info.eu/art-6-gdpr/&#34; target=&#34;_blank&#34;&gt;Art. 6 para. 1 sentence 1 lit. f GDPR&lt;/a&gt;.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://xn--h-zfa.xyz/meta/tags/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/meta/tags/index.json</guid>
+      <description></description>
+      </item>
+    
+    <item>
+      <title>Über diese Seite</title>
+      <link>https://xn--h-zfa.xyz/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/about/</guid>
+      <description>&lt;p&gt;This page provides shortened URLs for the pages of the Projektemacher sites.&lt;/p&gt;
+&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy policy&lt;/h1&gt;
+&lt;p&gt;The privacy policy is available &lt;a href=&#34;https://xn--h-zfa.xyz/privacy&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      </item>
+    
+    <item>
+      <title>Wikidata</title>
+      <link>https://xn--h-zfa.xyz/meta/wikidata/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xn--h-zfa.xyz/meta/wikidata/index.json</guid>
+      <description></description>
+      </item>
+    
+  </channel>
+</rss>
