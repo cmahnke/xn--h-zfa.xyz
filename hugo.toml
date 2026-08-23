@@ -2,7 +2,6 @@ baseURL = 'https://xn--h-zfa.xyz/'
 theme = ["hugo-theme-shell", "projektemacher-base"]
 title = "Äh.XYZ"
 locale = "en"
-locale = "en"
 defaultcontentlanguage = "en"
 publishDir = "docs"
 canonifyurls = true
