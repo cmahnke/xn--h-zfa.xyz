@@ -1,8 +1,8 @@
 baseURL = 'https://xn--h-zfa.xyz/'
 theme = ["hugo-theme-shell", "projektemacher-base"]
 title = "Äh.XYZ"
-languageCode = "en"
-languagecode = "en"
+locale = "en"
+locale = "en"
 defaultcontentlanguage = "en"
 publishDir = "docs"
 canonifyurls = true
@@ -18,12 +18,12 @@ enableGitInfo = true
 
 [languages]
   [languages.de]
-    languagename = "Deutsch"
+    label = "Deutsch"
 
     [languages.de.params]
 
   [languages.en]
-      languagename = "English"
+      label = "English"
       [languages.en.params]
 
 [markup.goldmark.renderer]
