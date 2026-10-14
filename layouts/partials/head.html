@@ -15,4 +15,5 @@
         {{- $style = $scssStyle | fingerprint -}}
     {{- end -}}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}">
+    {{- partial "metadata/schema.org/schema.org.html" . -}}
 </head>
