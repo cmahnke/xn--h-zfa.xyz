@@ -2,6 +2,7 @@
   description = "Projektemacher URL Shortener"
   disableScale = true
   copyrightYears = "2023 - 2026"
+  schemaPerson = "https://christianmahnke.de/person.jsonld"
 
   [Params.Terminal]
     scheme = "shell-retro"
