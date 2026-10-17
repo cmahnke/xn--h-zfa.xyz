@@ -75,6 +75,10 @@ jobs:
       - name: Build Hugo site
         run: hugo --printI18nWarnings --printUnusedTemplates
 
+      - name: Lint generated CSS
+        continue-on-error: true
+        run: npm run postbuild-lint
+
       - name: Run post build script
         run: |
           ./scripts/post-build/qr-codes.sh

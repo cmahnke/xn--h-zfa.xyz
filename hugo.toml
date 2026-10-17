@@ -1,54 +1,61 @@
 baseURL = 'https://xn--h-zfa.xyz/'
-theme = ["hugo-theme-shell", "projektemacher-base"]
+theme = [
+  "hugo-theme-shell",
+  "projektemacher-base" 
+]
 title = "Äh.XYZ"
 locale = "en"
 defaultcontentlanguage = "en"
 publishDir = "docs"
 canonifyurls = true
 disablePathToLower = true
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+disableKinds = [ "taxonomy" ]
+ignoreErrors = [ "error-disable-taxonomy" ]
 enableInlineShortcodes = true
 copyright = "<a href=\"https://labs.projektemacher.org\">Projektemacher Labs</a>"
 enableGitInfo = true
 
 [pagination]
-  pagerSize = 5
+pagerSize = 5
 
 [languages]
-  [languages.de]
-    label = "Deutsch"
+[languages.de]
+label = "Deutsch"
 
-    [languages.de.params]
+[languages.de.params]
 
-  [languages.en]
-      label = "English"
-      [languages.en.params]
+[languages.en]
+label = "English"
+[languages.en.params]
 
 [markup.goldmark.renderer]
-  unsafe = true
+unsafe = true
 
 [imaging]
-    quality = 95
+quality = 95
 
 [mediaTypes]
-  [mediaTypes."application/x-qrcode-template"]
-    suffixes = ["json"]
+[mediaTypes."application/x-qrcode-template"]
+suffixes = [ "json" ]
 
 [outputFormats]
-  [outputFormats.qrcode]
-    mediaType = "application/x-qrcode-template"
-    isPlainText = true
-    isHTML = false
-    baseName = "qrcode"
-    notAlternative = true
+[outputFormats.qrcode]
+mediaType = "application/x-qrcode-template"
+isPlainText = true
+isHTML = false
+baseName = "qrcode"
+notAlternative = true
 
 [sitemap]
-  changeFreq = 'weekly'
+changeFreq = 'weekly'
 
 [build]
-  writeStats = true
+writeStats = true
 
 [security]
-  [security.http]
-    mediaTypes = ['^application/json$', '^application/json;\s?charset=[uU][tT][fF]-8$', '^application/sparql-results\+json;\s?charset=[uU][tT][fF]-8$']
+[security.http]
+mediaTypes = [
+  '^application/json$',
+  '^application/json;\s?charset=[uU][tT][fF]-8$',
+  '^application/sparql-results\+json;\s?charset=[uU][tT][fF]-8$' 
+]

@@ -1,12 +1,14 @@
 @import "fonts/courier-prime";
 
-html, body {
-  font-family: "Courier Prime";
+html,
+body {
+  font-family: "Courier Prime", monospace;
 }
 
+/* stylelint-disable-next-line selector-id-pattern -- ID comes from hugo-theme-shell's typeIndex.html */
 #std_out_01 #terminal {
   display: block;
-  margin-top: .4em;
+  margin-top: 0.4em;
 
   pre.center {
     margin: auto;
@@ -16,12 +18,12 @@ html, body {
 }
 
 @media only screen and (min-width: 768px) {
-    body {
-        font-size: 2.5vmin;
-        line-height: 2.6vmin;
-    }
+  body {
+    font-size: 2.5vmin;
+    line-height: 2.6vmin;
+  }
 
-    #content {
-        min-width: 75vmin;
-    }
+  #content {
+    min-width: 75vmin;
+  }
 }

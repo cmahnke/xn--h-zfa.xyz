@@ -1,35 +1,53 @@
 [Params]
-  description = "Projektemacher URL Shortener"
-  disableScale = true
-  copyrightYears = "2023 - 2026"
-  schemaPerson = "https://christianmahnke.de/person.jsonld"
+description = "Projektemacher URL Shortener"
+disableScale = true
+copyrightYears = "2023 - 2026"
+schemaPerson = "https://christianmahnke.de/person.jsonld"
 
-  [Params.Terminal]
-    scheme = "shell-retro"
-    userName = "projektemacher"
-    pcName = "äh.xyz"
-    workDir = "resolver"
-    profile = "intro.txt"
-    description = "/description.md"
-    wikidata = false
-    debug = false
+[Params.Terminal]
+scheme = "shell-retro"
+userName = "projektemacher"
+pcName = "äh.xyz"
+workDir = "resolver"
+profile = "intro.txt"
+description = "/description.md"
+wikidata = false
+debug = false
 
-  [Params.Tree]
-    use = true
-    folderName = "site"
-    files = [
-      ["Start", "/en"],
-      ["Deutsche Übersetzung", "/de/"],
-      ["Links", "/links/"],
-      ["About", "/about/"],
-      ["Projektemacher", "http://projektemacher.org/"],
-      ["Projektemacher Labs", "https://labs.projektemacher.org/"]
-    ]
+[Params.Tree]
+use = true
+folderName = "site"
+files = [
+  [
+    "Start",
+    "/en" 
+  ],
+  [
+    "Deutsche Übersetzung",
+    "/de/" 
+  ],
+  [
+    "Links",
+    "/links/" 
+  ],
+  [
+    "About",
+    "/about/" 
+  ],
+  [
+    "Projektemacher",
+    "http://projektemacher.org/" 
+  ],
+  [
+    "Projektemacher Labs",
+    "https://labs.projektemacher.org/" 
+  ]
+]
 
-  [Params.Navbar]
-    use = false
+[Params.Navbar]
+use = false
 
 [params.author]
-    email = 'mail@christianmahnke.de'
-    name = 'Christian Mahnke'
-    uri = 'http://www.wikidata.org/entity/Q137668638'
+email = 'mail@christianmahnke.de'
+name = 'Christian Mahnke'
+uri = 'http://www.wikidata.org/entity/Q137668638'
