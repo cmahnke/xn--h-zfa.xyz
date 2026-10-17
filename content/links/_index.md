@@ -1,5 +1,5 @@
 ---
-title: "Über mich"
+title: "Links"
 metaPage: true
 displayinlist: false
 ---

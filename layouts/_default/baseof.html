@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.Language.Lang }}{{ . }}{{ else }}en{{ end }}">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <main id="main">
+            {{ if .IsHome }}<h1 class="visually-hidden">{{ .Site.Title }}</h1>{{ end }}
+            <div id="content">
+            {{- block "main" . }}{{- end }}
+            </div>
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
