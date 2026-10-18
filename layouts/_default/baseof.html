@@ -3,11 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <main id="main">
-            {{ if .IsHome }}<h1 class="visually-hidden">{{ .Site.Title }}</h1>{{ end }}
-            <div id="content">
-            {{- block "main" . }}{{- end }}
-            </div>
+        <main id="content">
+        {{ if .IsHome }}<h1 class="visually-hidden">{{ .Site.Title }}</h1>{{ end }}
+        {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
     </body>
