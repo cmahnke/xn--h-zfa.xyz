@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.Language.Lang }}{{ . }}{{ else }}en{{ end }}">
+<html lang="{{ with site.Language.Lang }}{{ . }}{{ else }}en{{ end }}">
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
         <main id="content">
-        {{ if .IsHome }}<h1 class="visually-hidden">{{ .Site.Title }}</h1>{{ end }}
+        {{ if .IsHome }}<h1 class="visually-hidden">{{ site.Title }}</h1>{{ end }}
         {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}

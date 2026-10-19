@@ -7,7 +7,7 @@ title = "Äh.XYZ"
 locale = "en"
 defaultcontentlanguage = "en"
 publishDir = "docs"
-canonifyurls = true
+canonifyURLs = true
 disablePathToLower = true
 disableKinds = [ "taxonomy" ]
 ignoreErrors = [ "error-disable-taxonomy" ]
@@ -20,13 +20,14 @@ pagerSize = 5
 
 [languages]
 [languages.de]
-label = "Deutsch"
 
 [languages.de.params]
+label = "Deutsch"
 
 [languages.en]
-label = "English"
+
 [languages.en.params]
+label = "English"
 
 [markup.goldmark.renderer]
 unsafe = true
