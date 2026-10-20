@@ -50,3 +50,11 @@ purgecss.config.js
 assets/css/
 static/fonts/
 data/stats.json
+
+/package-lock.json
+
+/npm-shrinkwrap.json
+
+/pnpm-lock.yaml
+
+/yarn.lock
