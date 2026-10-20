@@ -2,6 +2,7 @@
 <html lang="{{ with site.Language.Lang }}{{ . }}{{ else }}en{{ end }}">
     {{- partial "head.html" . -}}
     <body>
+        <a class="skip-link" href="#content">{{ i18n "skipToContent" }}</a>
         {{- partial "header.html" . -}}
         <main id="content">
         {{ if .IsHome }}<h1 class="visually-hidden">{{ site.Title }}</h1>{{ end }}
