@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ with site.Language.Lang }}{{ . }}{{ else }}en{{ end }}">
+<html lang="{{ with site.Language.Name }}{{ . }}{{ else }}en{{ end }}">
     {{- partial "head.html" . -}}
     <body>
         <a class="skip-link" href="#content">{{ i18n "skipToContent" }}</a>
