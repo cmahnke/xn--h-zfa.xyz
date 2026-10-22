@@ -5,7 +5,7 @@ theme = [
 ]
 title = "Äh.XYZ"
 locale = "en"
-defaultcontentlanguage = "en"
+defaultContentLanguage = "en"
 publishDir = "docs"
 canonifyURLs = true
 disablePathToLower = true
