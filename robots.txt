@@ -1,0 +1,15 @@
+User-agent: *
+
+Disallow: /de/privacy/
+
+
+Disallow: /*.bib$
+
+Disallow: /*.json$
+
+Disallow: /*.xml$
+
+Sitemap: https://xn--h-zfa.xyz/de/sitemap.xml
+
+
+llms-txt: https://xn--h-zfa.xyz/llms.txt
